@@ -1,0 +1,86 @@
+body ,h1, nav, a, article>h2, section{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #777;
+  max-width: 960px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+header, nav, section, aside, footer{
+  background-color: #ebebeb;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 15px
+}
+
+nav {
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+a{
+  margin:10px;
+  color: #777;
+}
+
+section, aside {
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:25px;
+  padding-bottom: 25px;
+}
+
+div{
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+p{
+  background-color: #ebebeb;
+  color:#777;
+  padding:10px;
+}
+
+section{
+  float: left;
+  width: 465px;
+  height: 269px;
+}
+
+aside{
+  float: right;    
+  width: 425px;
+  height: 269px;
+}
+
+h1, h2, h3{
+  font-size: 1.2em;
+  padding: 5px;
+  margin-top:5px;
+}
+
+article {
+  background-color: #777;
+  padding:15px;
+  margin-top:20px;
+  color:#ebebeb;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-right:15px;
+  margin-top: 15px;
+}
